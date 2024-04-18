@@ -1,0 +1,61 @@
+<divclass="container">
+<h1>EventRegistrationForm</h1>
+<form name="Registration" class="registartionform"onsubmit="returnformValidation()">
+<table>
+<tr>
+<td><labelfor="name">Name:</label></td>
+<td><inputtype="text"name="name"id="name"placeholder=
+"yourname"></td>
+</tr>
+<tr>
+<td><labelfor="email">Email:</label></td>
+<td><inputtype="text"name="email"id="email"placeholder="youremail"><
+/td>
+</tr>
+<tr>
+<td><labelfor="password">Password:</label></td>
+<td><input type="password" 
+name="password"id="password"></td>
+</tr>
+<tr>
+<td><labelfor="phoneNumber">PhoneNumber:</label></td>
+<td><inputtype="number"name="phoneNumber"id="phoneNumber"></td>
+</tr>
+<tr>
+<td><labelfor="gender">Gender:</label></td>
+<td>Male:<inputtype="radio"name="gender"value="male">
+Female: <input type="radio" 
+name="gender"value="female">
+Other: <input type="radio" 
+name="gender"value="other"></td>
+</tr>
+<tr>
+<td><labelfor="language">language</label></td>
+<td>
+<selectname="language"id="language">
+    <optionvalue="">Selectlanguage</option>
+    <optionvalue="English">English</option>
+    <optionvalue="Spanish">Spanish</option>
+    <optionvalue="Hindi">Hindi</option>
+    <optionvalue="Arabic">Arabic</option>
+    <optionvalue="Russian">Russian</option>
+    </select>
+    </td>
+    </tr>
+    <tr>
+    <td><labelfor="zipcode">ZipCode:</label></td>
+    <td><input type="number" 
+    name="zipcode"id="zipcode"></td>
+    </tr>
+    <tr>
+    <td><labelfor="about">About:</label></td>
+    <td><textareaname="about"id="about"placeholder="Writeaboutyourself..."
+    ></textarea></td>
+    </tr>
+    <tr>
+    <td colspan="2"><input type="submit" 
+    class="submit"value="Register"/></td>
+    </tr>
+    </table>
+    </form>
+    </div>
